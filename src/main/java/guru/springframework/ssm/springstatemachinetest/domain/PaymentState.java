@@ -1,6 +1,3 @@
-/*
- * Copyright (c) by censhare AG
- */
 package guru.springframework.ssm.springstatemachinetest.domain;
 
 /**
