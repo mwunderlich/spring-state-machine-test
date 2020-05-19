@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 /**
  * Payment entity
@@ -25,6 +26,8 @@ public class Payment {
     @Id
     @GeneratedValue
     private Long id;
+
+    private BigDecimal amount;
 
     @Enumerated(EnumType.STRING)
     private PaymentState paymentState;
